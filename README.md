@@ -1,8 +1,6 @@
 # Data_Viz
 🌊🏄 Projet de Visualisation des conditions de Surf
 
-![Preview](preview.png)
-
 
 Dans notre dernier projet de groupe, nous avons exploré la visualisation des données en direct via une requête API et l'animation dynamique en utilisant JavaScript. Notre projet était centré autour de la thématique du surf, où nous avons exploité les données météorologiques fournies par OpenWeather pour créer une expérience immersive. Voici un aperçu de ce que nous avons réalisé :
 
