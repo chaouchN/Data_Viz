@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Surf-indicator</title>
+<link rel="stylesheet" href="styles.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+ <div class="infos">
+      <input id="zone" type="text" value="" />
+      <input type="button" value="Donne ton spot" class="button" onclick="buttonClickGET()"  />
+  <h2 id="heure"></h2>
+  <h2 id="meteo"></h2>
+  <h2 id="maree"></h2>
+</div>
+<div id="iconeMeteo"></div>
+
+ 
+<canvas id="canvas"></canvas>
+<script src="requetes_api.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,72 @@
+body, html {
+    /* margin: 0;
+    padding: 0; */
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin-left: 0 !important;  */
+    margin-right: 0 !important;
+}
+canvas {
+    display: block;
+    z-index :999;
+}
+
+#iconeMeteo img {
+    width: 315px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #111111;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+.text {
+    border-radius: 40px;
+}
+
+.button {
+    background-color: #111111;
+    color: #f5f5f5;
+   
+    border: none;
+    font-size: 25px;
+    text-align: center;
+    font-weight:normal;
+    border-radius: 30px;
+    padding: 10px 40px ;
+    text-align: center;
+    justify-content: center;
+    table-layout: fixed;
+    font-weight: bolder;
+}
+
+.button:hover {
+    opacity: 70%;
+}
+
+
+.infos {
+    display: inline-block;
+    align-items: center;
+ 
+}
+
+canvas {
+    position: fixed;
+    bottom: 0;
+    max-height: 400px;
+    width: 100%;
+}
+
